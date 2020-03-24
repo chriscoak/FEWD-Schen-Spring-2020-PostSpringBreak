@@ -38,7 +38,7 @@
  *
  */
 
-let firstName = "";
+// let firstName = "";
 
 /**
  * @description
@@ -61,3 +61,18 @@ let firstName = "";
  * @do
  * include this file in a new pull request
  */
+
+
+
+ var firstName = 'Chris'
+ console.log(firstName)
+
+ var middleName = 'Gael'
+ console.log(middleName)
+
+ var lastName = 'Coakley'
+ console.log(lastName)
+
+ var fullName = 'Chris Gael Coakley'
+ console.log(fullName)
+
