@@ -25,3 +25,14 @@
  * @do
  * include this file in a new commit and push
  */
+
+ var arr = [
+     "Chris",
+     "Tim",
+     "Claire",
+     "Mike"
+ ]
+
+ console.log(arr[0])
+
+ console.log(arr[0].charAt(4))
