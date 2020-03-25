@@ -59,20 +59,20 @@
 
 /**
  * @do
- * include this file in a new pull request
+ * include this file in a new commit
  */
 
 
 
- var firstName = 'Chris'
- console.log(firstName)
+//  var firstName = 'Chris'
+//  console.log(firstName)
 
- var middleName = 'Gael'
- console.log(middleName)
+//  var middleName = 'Gael'
+//  console.log(middleName)
 
- var lastName = 'Coakley'
- console.log(lastName)
+//  var lastName = 'Coakley'
+//  console.log(lastName)
 
- var fullName = 'Chris Gael Coakley'
- console.log(fullName)
+//  var fullName = 'Chris Gael Coakley'
+//  console.log(fullName)
 

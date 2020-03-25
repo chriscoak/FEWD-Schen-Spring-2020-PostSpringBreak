@@ -3,13 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Intro to JavaScript</title>
   </head>
 
-  <style>
- 
-  </style>
   <body>
     <header>
       <div class="img-wrapper">
@@ -20,14 +17,17 @@
     <main>
       <section>
         <p>
-          To open the console press <span><code>ctrl + shift + i</code></span> or
-          <code>F12</code> or right click anywhere on this page and select
+          To open the console press
+          <span><code>ctrl + shift + i</code></span> or <code>F12</code> or
+          right click anywhere on this page and select
           <i>inspect</i>
         </p>
+
+        <input type="text" id="input" />
       </section>
     </main>
 
-    <script src="exercises/01.strings.js"></script>
+    <!-- <script src="exercises/01.strings.js"></script> -->
     <!-- <script src="exercises/02.strings.js"></script> -->
     <!-- <script src="exercises/01.arrays.js"></script> -->
 <script>
@@ -65,42 +65,56 @@
 
   // console.log(fullName.toLowerCase)
 
-  var str = "this is a string and its goes on and on and on ..."
+//   var str = "this is a string and its goes on and on and on ..."
 
-  console.log(str.toUpperCase())
+//   console.log(str.toUpperCase())
 
-  console.log(str.replace("th", "dis"))
-
-
-  console.log(str.substring(0,7))
+//   console.log(str.replace("th", "dis"))
 
 
-  console.log(str.length)
+//   console.log(str.substring(0,7))
 
 
-  console.log(str.charAt(3))
+//   console.log(str.length)
 
 
-  console.log(str.charAt(str.length - 1));
+//   console.log(str.charAt(3))
+
+
+//   console.log(str.charAt(str.length - 1));
 
 
 
-  var smallString = str.substring(0,7)
+//   var smallString = str.substring(0,7)
 
-console.log(smallString)
+// console.log(smallString)
 
-var lastLetter = str.charAt(str.length - 1);
+// var lastLetter = str.charAt(str.length - 1);
 
-console.log(lastLetter);
+// console.log(lastLetter);
 
-console.log(lastLetter.indexOf("a"));
+// console.log(lastLetter.indexOf("a"));
 
-console.log(str.slice(0, 24) + "...")
+// console.log(str.slice(0, 24) + "...")
 
+var fullName = "Chris Coakley";
 
+ console.log(fullName.substring(0,5))
+
+ var firstName = fullName.substring(0,5)
+
+ console.log(fullName.charAt(12))
+
+ var lastLetter = fullName.charAt(12)
+
+ console.log(fullName.substring(8,13))
 
 </script>
 
+
+    <script>
+     
+    </script>
   </body>
 </html>
 

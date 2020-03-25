@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Intro to JavaScript</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="img-wrapper">
+        <img src="img/js-logo.png" alt="javascript logo" />
+      </div>
+      <h1>Introduction to JavaScript</h1>
+    </header>
+    <main>
+      <section>
+        <p>
+          To open the console press
+          <span><code>ctrl + shift + i</code></span> or <code>F12</code> or
+          right click anywhere on this page and select
+          <i>inspect</i>
+        </p>
+      </section>
+    </main>
+
+    <script src="js/strings.js"></script>
+
+    <script>
+      var str = "this is a string and it goes on and on and on";
+
+      console.log(str.toUpperCase());
+      console.log(str.replace("th", "dis"));
+
+      console.log(str.substring(0, 7));
+
+      console.log(str.length);
+
+      console.log(str.charAt(3));
+
+      console.log(str.charAt(str.length - 1));
+
+      var smallString = str.substring(0, 7);
+
+      console.log(smallString);
+
+      var lastLetter = str.charAt(str.length - 1);
+
+      console.log(lastLetter.indexOf("a"));
+
+      console.log(str.slice(0, 24) + " ...")
+
+
+    </script>
+  </body>
+</html>
